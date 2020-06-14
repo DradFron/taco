@@ -1,0 +1,11 @@
+//package com.example.taco.config;
+//
+//import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
+//import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+//
+//public class Myconfig implements WebMvcConfigurer {
+//    @Override
+//    public void addResourceHandlers(ResourceHandlerRegistry registry) {
+//        registry.addResourceHandler("/static/**").addResourceLocations("classpath:/static/");
+//    }
+//}
