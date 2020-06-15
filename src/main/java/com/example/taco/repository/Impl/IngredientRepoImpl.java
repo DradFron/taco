@@ -22,7 +22,7 @@ public class IngredientRepoImpl implements IngredientRepository {
 
     @Override
     public List<Ingredient> findAll() {
-        return jdbcTemplate.query("select id,name,type from Ingredient",this::mapRowToIngredient);
+        return jdbcTemplate.query("call findingredients();",this::mapRowToIngredient);
     }
 
     @Override
